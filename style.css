@@ -6,13 +6,10 @@
 .origami{
     border-radius: 20px;
     background-color: white;
-    width: 310px;
+    width: 275px;
     font-family: fantasy;
-    position:inherit;
-    flex-wrap: wrap;
-    flex-direction:column;
-    justify-content: space-evenly;
-    margin-left: 50px;
+    position:relative;
+    margin-left: 10px;
     text-align: center;
 }
 
@@ -34,5 +31,20 @@ body{
 }
 
 h3{
-    color:crimson
+    color:crimson;
+    text-align: center;
+font-size:30px
+}
+
+.origami:hover{
+    
+    transform:scale(1,2)
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    
 }
